@@ -36,8 +36,8 @@ Considering the close relationship with semantic versioning, a changelog handlin
 
 ### X.1.3 Repository tagging and releases
 
-To further improve tracking of versions' changes, [tagging of repositories](https://git-scm.com/book/en/v2/Git-Basics-Tagging) (a standard feature available in git, irrespective of the platforms) should be considered. A standard tag would consist of the MAJOR.MINOR.PATCH version number preceded by the letter v, e.g., v1.0.0 or v0.9.1.
-Additional tagging could also be optionally applied as mentioned above (e.g., 0.9.7-ALPHA).
+To further improve tracking of versions' changes, [tagging of repositories](https://git-scm.com/book/en/v2/Git-Basics-Tagging) (a standard feature available in git, irrespective of the platforms) should be considered. A standard tag would consist of the *MAJOR.MINOR.PATCH* version number preceded by the letter *v*, e.g., *v1.0.0* or *v0.9.1*.
+Additional tagging could also be optionally applied as mentioned above (e.g., *v0.9.7-ALPHA*).
 
 Releases are an extension of the tag concept featured both in [GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) and [GitLab](https://docs.gitlab.com/ee/user/project/releases/) (the most popular git-based hosting platforms). Releases are deployable software iterations you can package and make available for a wider audience to download and use. GitHub converts all tags to releases when pushing up from the local repository and that is why they can be listed as both releases and tags.  A tag date may be different than a release date since they can be created at different times in the GUI portal.
 Currently Camara's repositories are hosted on GitHub - more information about viewing existing tags and releases in GitHub is available in [GitHub's documentation](https://docs.github.com/en/repositories/releasing-projects-on-github/viewing-your-repositorys-releases-and-tags). 
