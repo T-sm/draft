@@ -28,6 +28,7 @@ In the WIP branch the real work takes place. If artifacts get ready for review t
 In the RTR branch the review and inclusion of findings takes place. If artifacts are accepted by the Sub Project or Working Group these have to be moved/merged to the main branch. The artifacts on the RTR branch have to be removed.
 
 <br>
+
 ## Switching between branches
 
 1. Click the drop down at the top of the file list that says **main**.![Branch menu](https://docs.github.com/assets/cb-6252/images/help/branch/branch-selection-dropdown.png)
@@ -35,8 +36,9 @@ In the RTR branch the review and inclusion of findings takes place. If artifacts
 3. Voilá, you now see the files "hidden" under the non-default branch.
 
 <br>
+
 ## About pull requests
-<br>
+
 For adding modifications to a branch in Camara, a pull request has to be initiated.
 
 Pull requests are the heart of collaboration on GitHub. When you open a pull request, you're proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in different colors.
@@ -52,8 +54,9 @@ For a deep dive, see GitHub's docs:
 * [Collaborate with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests "Collaborate with pull requests")
 
 <br>
+
 ## Creating a pull request
-<br>
+
 [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to propose and collaborate on changes to a repository. These changes are proposed in a *branch*, which ensures that the default branch only contains finished and approved work.
 
 Please name such a new branch in Camara with a standardized naming: *target-branch\_target-subject\_user*. This will improve the readability when multiple PRs are in progress and, therefore, the number of branches increases.
@@ -64,6 +67,7 @@ Please name such a new branch in Camara with a standardized naming: *target-bra
 
 <span class="colour" style="color:rgb(201, 209, 217)">You can even open pull requests in your own repository and merge them yourself. It's a great way to learn the GitHub flow before working on larger projects.</span>
 <br>
+
 1. Click the **Pull requests** tab of a Camara repository.
 2. Click **New pull request**
 3. In the **Example Comparisons** box, select the branch you made to compare with `RTR` (or another original branch).
@@ -77,6 +81,7 @@ Please name such a new branch in Camara with a standardized naming: *target-bra
 <span class="colour" style="color:rgb(201, 209, 217)">Your collaborators can now review your edits and make suggestions.</span>
 
 <br>
+
 **Tips**:
 
 * Using the compare view, you can set up comparisons across any timeframe. For more information, see "[Comparing commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/viewing-and-comparing-commits/comparing-commits)."
